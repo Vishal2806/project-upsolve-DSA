@@ -1,0 +1,33 @@
+.task-item {
+    background-color: #2C3637;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    min-width: 375px;
+}  
+
+.upper-task-data{
+    display:flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.lower-task-data{
+    display: flex;
+    flex-direction: column;
+}
+
+.truncate-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 400px;
+}
+
+.button-style{
+    padding: 10px;
+    background-color: #DBDF00;
+    border: none;
+}
